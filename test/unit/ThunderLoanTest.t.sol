@@ -87,4 +87,8 @@ contract ThunderLoanTest is BaseTest {
         assertEq(mockFlashLoanReceiver.getBalanceDuring(), amountToBorrow + AMOUNT);
         assertEq(mockFlashLoanReceiver.getBalanceAfter(), AMOUNT - calculatedFee);
     }
+
+    /*//////////////////////////////////////////////////////////////
+                            AUDIT TESTS
+    //////////////////////////////////////////////////////////////*/
 }
